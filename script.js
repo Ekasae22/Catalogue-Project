@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nameValue = document.getElementById('registerName').value;
         // Check which form was submitted
         if (form.id === 'loginForm') {
-            showAlert('success', 'Login successful! Welcome to Toyota EMS.');
+            showAlert('success', 'Login successful! Welcome to Catalogue Warehouse.');
             console.log('Login Data:', {
                 email: emailLoginValue,
                 password: document.getElementById('loginPassword').value
